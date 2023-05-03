@@ -116,3 +116,25 @@ header ul {
   font-size: 18px;
   color: #1f2937;
 }
+
+/* Testimonial section */
+.testimonial {
+  background-color: #e5e7eb;
+  padding: 64px 128px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.testimonial .text {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: lighter;
+  color: #1f2937;
+}
+
+.testimonial .quotation {
+  align-self: flex-end;
+  font-size: 24px;
+}
