@@ -78,3 +78,41 @@ header ul {
   width: 450px;
   height: 250px;
 }
+
+/* Info section */
+.info {
+  padding: 32px 96px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info > h2 {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+}
+
+.info-gallery {
+  display: flex;
+  gap: 16px;
+}
+
+.info-card {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info-card-image {
+  border: 3px solid #3882f6;
+  border-radius: 12px;
+  width: 200px;
+  height: 200px;
+}
+
+.info-card-text {
+  font-size: 18px;
+  color: #1f2937;
+}
