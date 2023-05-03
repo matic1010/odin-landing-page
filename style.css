@@ -9,11 +9,23 @@ a {
   color: inherit;
 }
 
+button {
+  border: none;
+  padding: 8px 24px;
+  background-color: #3882f6;
+  color: #f9f9f9;
+  font-size: 18px;
+  font-weight: 700;
+  border-radius: 5px;
+}
+
+/* Header */
+
 header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 16px 64px;
+  padding: 16px 96px;
   background-color: #1f2937;
   color: #f9faf8;
 }
@@ -30,4 +42,39 @@ header ul {
   margin: 0;
   padding: 0;
   gap: 16px;
+}
+
+/* Hero section */
+.hero {
+  display: flex;
+  background-color: #1f2937;
+  color: #f9faf8;
+  align-items: center;
+  justify-content: space-between;
+  padding: 64px 96px;
+  gap: 32px;
+}
+
+.hero-info {
+  flex-basis: 400px;
+}
+
+.hero-info > h2 {
+  font-size: 48px;
+  font-weight: 900;
+  margin-bottom: 0;
+}
+
+.hero-info > p {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.hero-image {
+  background-color: lightgray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 450px;
+  height: 250px;
 }
